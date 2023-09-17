@@ -1,4 +1,4 @@
-*, *::before, *::after {
+* {
     box-sizing: border-box;
 }
 
@@ -15,8 +15,12 @@
     background-color: lightgreen;
 }
 
+ul {
+    display: flex;
+}
+
 .recipe_bar {
-    display: block;
+    display: flex;
     background-color: lightgreen;
     font-size: 16px;
     padding: 15px;
