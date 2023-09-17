@@ -1,0 +1,27 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(66, 206, 66);
+    padding: 15px;
+}
+
+.introduction {
+    padding: 15px;
+    margin: 10px auto;
+    background-color: lightgreen;
+}
+
+.recipe_bar {
+    display: block;
+    background-color: lightgreen;
+    font-size: 16px;
+    padding: 15px;
+    border: 2px dotted darkgreen;
+}
+
+
+
